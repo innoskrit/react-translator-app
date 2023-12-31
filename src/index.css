@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -10,7 +9,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px;
   background: #600ee4;
   min-height: 100vh;
 }
@@ -35,7 +33,7 @@ body {
 }
 
 .to-text {
-  border-radius: 0px;
+  border-radius: 0px 10px 10px 0px;
   border-left: 1px solid #ccc;
 }
 
@@ -67,16 +65,6 @@ textarea::placeholder {
   color: #b7b7b7;
   cursor: pointer;
   justify-content: center;
-
-}
-
-.controls {
-  list-style: none;
-  padding: 12px 15px;
-}
-
-.controls .row .icons {
-  width: 40%;
 }
 
 .controls .row.from .icons {
